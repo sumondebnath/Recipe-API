@@ -28,12 +28,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
 
-CSRF_TRUSTED_ORIGINS = ['https://creatifinity-api.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://recipe-api-rsl6.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
