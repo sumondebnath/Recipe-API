@@ -11,6 +11,7 @@ defer
 distlib
 distro
 distro-info
+dj-database-url
 Django
 django-cors-headers
 django-crispy-forms
